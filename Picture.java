@@ -1,6 +1,6 @@
 /**
  * This picture represents a person climbing a stair in the middle of 
- * their walk with them wearing a hat to protect from the sunlight.
+ * their walk with them wearing a hat to protect themselves from the sunlight.
  *
  * @author  Pipatporn Chaluthong
  * @version 2024.01.22
@@ -16,7 +16,7 @@ public class Picture
     private Triangle hat;
     private Circle sun;
     private Person person;
-    private Circle hatDecorate;
+    private Circle hatDecoration;
     private boolean drawn;
 
     /**
@@ -33,7 +33,7 @@ public class Picture
         hat = new Triangle();  
         sun = new Circle();
         person = new Person();
-        hatDecorate = new Circle();
+        hatDecoration = new Circle();
         drawn = false;
     }
 
@@ -55,53 +55,53 @@ public class Picture
             grass.changeSize(550);
             grass.makeVisible();
             
-            sun.changeColor("yellow");
+            sun.changeColor("orange");
             sun.moveHorizontal(-200);
             sun.moveVertical(-80);
             sun.changeSize(68);
             sun.makeVisible();
             
-            stair1.changeColor("black");
+            stair1.changeColor("grey");
             stair1.moveHorizontal(-20);
             stair1.moveVertical(100);
             stair1.changeSize(50);
             stair1.makeVisible();
             
-            stair2.changeColor("black");
+            stair2.changeColor("grey");
             stair2.moveHorizontal(20);
             stair2.moveVertical(60);
             stair2.changeSize(50);
             stair2.makeVisible();
             
-            stair3.changeColor("black");
+            stair3.changeColor("grey");
             stair3.moveHorizontal(60);
             stair3.moveVertical(100);
             stair3.changeSize(50);
             stair3.makeVisible();
             
-            stair4.changeColor("black");
+            stair4.changeColor("grey");
             stair4.moveHorizontal(20);
             stair4.moveVertical(100);
             stair4.changeSize(50);
             stair4.makeVisible();
             
-            person.changeColor("black");
+            person.changeColor("grey");
             person.moveHorizontal(70);
             person.moveVertical(-50);
             person.changeSize(60,30);
             person.makeVisible();
             
-            hat.changeColor("yellow");
+            hat.changeColor("brown");
             hat.moveHorizontal(140);
             hat.moveVertical(-35);
             hat.changeSize(20,20);
             hat.makeVisible();
             
-            hatDecorate.changeColor("yellow");
-            hatDecorate.moveHorizontal(115);
-            hatDecorate.moveVertical(10);
-            hatDecorate.changeSize(10);
-            hatDecorate.makeVisible();
+            hatDecoration.changeColor("yellow");
+            hatDecoration.moveHorizontal(115);
+            hatDecoration.moveVertical(10);
+            hatDecoration.changeSize(10);
+            hatDecoration.makeVisible();
             
             drawn = true;
         }
@@ -115,9 +115,9 @@ public class Picture
         sky.changeColor("black");
         grass.changeColor("white");
         sun.changeColor("white");
-        hatDecorate.changeColor("white");
         person.changeColor("white");
         hat.changeColor("white");
+        hatDecoration.changeColor("white");
         stair1.changeColor("white");
         stair2.changeColor("white");
         stair3.changeColor("white");
@@ -131,14 +131,14 @@ public class Picture
     {
         sky.changeColor("blue");
         grass.changeColor("green");
-        sun.changeColor("yellow");
-        hatDecorate.changeColor("yellow");
-        person.changeColor("black");
-        hat.changeColor("yellow");
-        stair1.changeColor("black");
-        stair2.changeColor("black");
-        stair3.changeColor("black");
-        stair4.changeColor("black");
+        sun.changeColor("orange");
+        person.changeColor("grey");
+        hat.changeColor("brown");
+        hatDecoration.changeColor("yellow");
+        stair1.changeColor("grey");
+        stair2.changeColor("grey");
+        stair3.changeColor("grey");
+        stair4.changeColor("grey");
     }
     }
     
