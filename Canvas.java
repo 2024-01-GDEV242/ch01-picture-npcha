@@ -129,13 +129,22 @@ public class Canvas
             graphic.setColor(Color.black);
         }
         else if(colorString.equals("blue")) {
-            graphic.setColor(new Color(30, 75, 220));
+            graphic.setColor(new Color(207, 226, 243));
+        }
+        else if(colorString.equals("orange")) {
+            graphic.setColor(new Color(246, 178, 107));
+        }
+        else if(colorString.equals("grey")) {
+            graphic.setColor(new Color(153, 153, 153));
+        }
+        else if(colorString.equals("brown")) {
+            graphic.setColor(new Color(120, 63, 4));
         }
         else if(colorString.equals("yellow")) {
             graphic.setColor(new Color(255, 230, 0));
         }
         else if(colorString.equals("green")) {
-            graphic.setColor(new Color(80, 160, 60));
+            graphic.setColor(new Color(143, 206, 0));
         }
         else if(colorString.equals("magenta")) {
             graphic.setColor(Color.magenta);
